@@ -62,20 +62,21 @@ class Owner
   
   def sell_pets 
     
-    @pets.each do |animal, array_of_animals|
-      array_of_animals.each do ||
+    @pets.each do |animal_species, array_of_animals|
+      array_of_animals.each do |animal|
+        animal.mood = "nervous"
       end 
     end 
-    @pets[:dogs].each do |dog|
-      dog.mood = "happy"
-    end 
+    # @pets[:dogs].each do |dog|
+    #   dog.mood = "happy"
+    # end 
     
-    @pets[:cats].each do |cat|
-      cat.mood = "happy"
-    end 
+    # @pets[:cats].each do |cat|
+    #   cat.mood = "happy"
+    # end 
     
-    @pets[:fishes].each do |fish|
-      fish.mood = "happy"
-    end 
+    # @pets[:fishes].each do |fish|
+    #   fish.mood = "happy"
+    # end 
   end 
 end
