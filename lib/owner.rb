@@ -65,7 +65,8 @@ class Owner
     @pets.each do |animal_species, array_of_animals|
       array_of_animals.each do |animal|
         animal.mood = "nervous"
-      end 
+      end
+      array_of_animals.clear
     end 
     # @pets[:dogs].each do |dog|
     #   dog.mood = "happy"
