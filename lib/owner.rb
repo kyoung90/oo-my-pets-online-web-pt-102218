@@ -68,4 +68,6 @@ class Owner
       array_of_animals.clear
     end 
   end 
+  
+  
 end
