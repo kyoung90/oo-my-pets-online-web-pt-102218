@@ -69,5 +69,11 @@ class Owner
     end 
   end 
   
-  
+  def list_pets
+    str = "I have "
+    @pets.each do |animal_species, array_of_animals|
+      array_of_animals.length
+      
+    end 
+  end 
 end
