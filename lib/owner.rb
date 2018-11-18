@@ -3,8 +3,8 @@ class Owner
   
   @@all = []
   
-  def initialize(specie)
-    @species = specie
+  def initialize(species)
+    @species = species
   
   end 
   
