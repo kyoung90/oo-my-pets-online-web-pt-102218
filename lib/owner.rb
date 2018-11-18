@@ -19,4 +19,8 @@ class Owner
   def self.count 
     @@all.length
   end 
+  
+  def say_species 
+    return "I am a #{self.species}."
+  end 
 end
